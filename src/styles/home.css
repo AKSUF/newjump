@@ -1,0 +1,129 @@
+.banner {
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/public/DemoCreatorSnap_2023-06-25\ 06-21-17.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.color {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/Logo/Gmail.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.role {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/p1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.emp {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/emp.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../assets/webapp.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.test {
+    /* background: url("../assets/public/testt.png"); */
+    background-size: cover;
+    background-position: center;
+}
+
+.test2 {
+    /* background: url("../assets/public/sidebar3.png"); */
+    background-size: cover;
+    background-position: top;
+}
+
+.bg {
+    /* background: url("../assets/public/test.jpg"); */
+    background-size: cover;
+    background-position: top;
+}
+
+.store {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../assets/public/images.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+.delivery {
+    width: 100%;
+    height: 35vh;
+    /* background: url("../assets/public/sidebar2.png"); */
+    ;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .delivery {
+        height: 50vh;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .delivery {
+        height: 40vh;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .delivery {
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .delivery {
+        height: 55vh;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Set CardMedia to display as flex and take up 6 columns for screen sizes equal to or greater than medium */
+    .card-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 350px;
+        height: 250px;
+        flex: 0 0 50%;
+    }
+    /* Set CardContent to display as flex and take up 6 columns for screen sizes equal to or greater than medium */
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 350px;
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* Set CardMedia to display as block and take up the full width for screen sizes smaller than medium */
+    .card-media {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    /* Set CardContent to display as block and take up the full width for screen sizes smaller than medium */
+    .card-content {
+        display: block;
+        width: 100%;
+    }
+}

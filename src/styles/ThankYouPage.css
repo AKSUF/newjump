@@ -1,0 +1,29 @@
+.thank-you-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.box-container {
+    border: 2px solid #000;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 2px 2px #888;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+    padding: 1rem;
+}

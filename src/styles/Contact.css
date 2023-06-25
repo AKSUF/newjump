@@ -1,0 +1,7 @@
+.banners {
+    width: 100%;
+    height: 92vh;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), url("../assets/about/banner\ \(2\).avif");
+    background-size: cover;
+    color: white;
+}
